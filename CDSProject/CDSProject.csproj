@@ -150,6 +150,12 @@
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\AccountReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AccountReg.Designer.cs">
+      <DependentUpon>AccountReg.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\LecturerReg.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,6 +190,9 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AccountReg.resx">
+      <DependentUpon>AccountReg.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\LecturerReg.resx">
       <DependentUpon>LecturerReg.cs</DependentUpon>
