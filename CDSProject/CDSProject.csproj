@@ -162,6 +162,12 @@
     <Compile Include="View\LevelReg.Designer.cs">
       <DependentUpon>LevelReg.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\PaymentReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PaymentReg.Designer.cs">
+      <DependentUpon>PaymentReg.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\StudentReg.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,6 +190,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\LevelReg.resx">
       <DependentUpon>LevelReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PaymentReg.resx">
+      <DependentUpon>PaymentReg.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\StudentReg.resx">
       <DependentUpon>StudentReg.cs</DependentUpon>
