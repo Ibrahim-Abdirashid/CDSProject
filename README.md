@@ -6,7 +6,7 @@ This project is a comprehensive management solution for handling students, lectu
 
 * **Language:** C#
 * **Platform:** .NET Framework / .NET Core (Windows Forms Application)
-* **Database:** **[INSERT YOUR DATABASE HERE (e.g., SQL Server, MySQL)]**
+* **Database:** **Mongodb**
 * **Architecture:** Model-View-Controller (MVC)
 
 ## ✨ Core Features
